@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  height: 800px;
+  width: 800px;
+  background-color: blanchedalmond;
+  border: rgba(151, 95, 55, 0.678) solid;
+  border-radius: 10px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cornsilk;
+}
+
+h2 {
+  font-family: monospace;
+  padding-right: 10px;
+}
+.count {
+  background-color: black;
+  color: blanchedalmond;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+}
