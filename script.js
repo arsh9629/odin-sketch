@@ -9,8 +9,8 @@ function createDiv(count){
     const container=document.querySelector('.container')
     container.textContent='';
     let sqr=Math.sqrt(count);
-    if(count%sqr==0){
         if(count>100)return alert('you entered greater than 100')
+        if(count%sqr==0){
         let autofn= (count)=>{ let auto='';
             for(let i=0;i<count;i++){
             auto+=' auto '
